@@ -9,6 +9,7 @@ export const categories = [
   { id: 'dr-mughith', label: 'دکتر مغیث' },
   { id: 'dr-mansourizadeh', label: 'دکتر منصوری زاده' },
   { id: 'dr-javidani', label: 'دکتر جاویدانی' },
+  { id: 'dr-khotanloo', label: 'دکتر ختن لو'}
 ];
 
 export const pagesData = [
@@ -88,13 +89,21 @@ export const pagesData = [
     image: 'src/assets/images/dezfolian.jpg', 
     formUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScwJYqr067ELsfTSrxnD1w52eNsr8nruR7e3sGJjYDiBevJ8g/viewform?usp=publish-editor', 
   },
-
-      {
+  {
     fileNo: '09',
     title: 'ریاضیات گسسته',
     description: 'برای علاقه‌مندانی که حل اثبات‌ها و استقرای ریاضی را نه دشوار بلکه همچون حل یک معما می‌دانند، تیم دستیاران آموزشی درس ریاضیات گسسته با تدریس دکتر داوری فرصت همکاری فراهم کرده است. خواهشمند است جهت ثبت‌نام، فرم مربوطه را تکمیل نمایید.',    category: 'dr-davari', // TODO: assign the correct doctor/category
     status: 'فعال',
     image: 'src/assets/images/davari.png', 
     formUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfvUk1dviSEHNFoafAJz2ENhfbZSWpgXFR4uVnjLlZ1Qh45gA/viewform', 
+  },
+  {
+    fileNo: '10',
+    title: 'بینایی ماشین',
+    description: 'از داوطلبان علاقه‌مند به همکاری با دکتر ختن لو در قالب دستیار آموزشی درس بینایی ماشین دعوت به‌عمل می‌آید جهت ثبت‌نام، فرم مربوطه را تکمیل نمایند.',    
+    category: 'dr-khotanloo', 
+    status: 'فعال',
+    image: 'src/assets/images/khotanloo.jpg', 
+    formUrl: 'https://forms.gle/MGjBDkUjnL4jf6tx9', 
   },
 ];
