@@ -9,6 +9,7 @@ export const categories = [
   { id: 'dr-mughith', label: 'دکتر مغیث' },
   { id: 'dr-mansourizadeh', label: 'دکتر منصوری زاده' },
   { id: 'dr-javidani', label: 'دکتر جاویدانی' },
+  { id: 'dr-rahati', label: 'دکتر راحتی' },
   { id: 'dr-khotanloo', label: 'دکتر ختن لو'}
 ];
 
@@ -105,5 +106,14 @@ export const pagesData = [
     status: 'فعال',
     image: 'src/assets/images/khotanloo.jpg', 
     formUrl: 'https://forms.gle/MGjBDkUjnL4jf6tx9', 
+  },
+  {
+    fileNo: '11',
+    title: 'برنامه سازی پیشرفته',
+    description: 'از داوطلبان علاقه‌مند به همکاری با دکتر راحتی در قالب دستیار آموزشی درس بینایی ماشین دعوت به‌عمل می‌آید جهت ثبت‌نام، فرم مربوطه را تکمیل نمایند.',    
+    category: 'dr-rahati', 
+    status: 'فعال',
+    image: 'src/assets/images/rahati.jpg', 
+    formUrl: 'https://forms.gle/w5gjf2o4gpqE5tfFA', 
   },
 ];
